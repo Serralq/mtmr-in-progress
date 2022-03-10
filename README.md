@@ -1,3 +1,9 @@
+# How to use
+1. ~/Library/Application Support/MTMR/
+2. import the items.json into the folder
+3. Open MTMR
+4. Select MTMR from the menu bar >> Open preset >> Select items.json
+
 # Feature set
 
 - Speaker Icon
