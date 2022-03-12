@@ -41,6 +41,8 @@
 1. Parallels
 2. Amphetamine
 3. Time Out
+4. Blueutil
+5. SwitchAudioSource
 
 # To be created
 
