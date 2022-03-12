@@ -49,3 +49,4 @@
 
 - Itunes integration
 - Expand Weather to show hourly and weekly forcasts
+- Differentr images based on audio output devices
