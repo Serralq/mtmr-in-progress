@@ -8,7 +8,7 @@
     "align": "left",
     "width": 25,
     "source": {
-       "inline": "set muted to get output volume of (get volume settings) is equal to 0\r\nif (do shell script \"/opt/homebrew/bin/blueutil -p\") is equal to \"1\" then\r\n\tset myBlue to \"On\"\r\nelse\r\n\tset myBlue to \"Bloof\"\r\nend if\r\nif muted then\r\n\tset mySound to \"Muted\"\r\nelse\r\n\tset mySound to \"On\"\r\nend if\r\nif application \"Parallels Desktop\" is running then\r\n\tset myRemote to \"On\"\r\nelse\r\n\tset myRemote to \"ReDead\"\r\nend if\r\nreturn {\" \", myBlue & mySound & myRemote}"
+       "inline": "set muted to get output volume of (get volume settings) is equal to 0 or output muted of (get volume settings) is equal to true\r\nif (do shell script \"/opt/homebrew/bin/blueutil -p\") is equal to \"1\" then\r\n\tset myBlue to \"On\"\r\nelse\r\n\tset myBlue to \"Bloof\"\r\nend if\r\nif muted then\r\n\tset mySound to \"Muted\"\r\nelse\r\n\tset mySound to \"On\"\r\nend if\r\nif application \"Parallels Desktop\" is running then\r\n\tset myRemote to \"On\"\r\nelse\r\n\tset myRemote to \"ReDead\"\r\nend if\r\nreturn {\" \", myBlue & mySound & myRemote}"
     },
 
     "alternativeImages": {
