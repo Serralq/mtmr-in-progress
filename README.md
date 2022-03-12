@@ -43,6 +43,7 @@
 3. Time Out
 4. Blueutil
 5. SwitchAudioSource
+6. Background Music
 
 # To be created
 
