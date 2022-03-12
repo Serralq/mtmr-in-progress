@@ -34,6 +34,7 @@
 
 - Invisible Timer Toggler
   - If not five minutes before the hour && Amphetmine is in off then turn on Time Out
+  - Also if at home wifi and bluetooth enabled and on computer speakers then try to switch to external speakers
 
 # Dependencies
 
