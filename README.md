@@ -44,6 +44,7 @@
 4. Blueutil
 5. SwitchAudioSource
 6. Background Music
+7. Using the OS' MIDI to create a multi-device output
 
 # To be created
 
